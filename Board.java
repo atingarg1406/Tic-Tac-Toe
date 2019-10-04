@@ -17,6 +17,7 @@ class Board
 		this.symbol1=p1symbol;
 		this.symbol2=p2symbol;
 		Board= new char [boardsize][boardsize];
+		//Intializing the loop
 		for(int i=0;i<boardsize;i++)
 		{
 			for(int j=0;j<boardsize;j++)
